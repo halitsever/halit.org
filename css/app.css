@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+/*
+General CSS
+*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+Header CSS
+*/
+
+.resumeSection {
+    background-image:url("../assets/header.svg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 595px;
+}
+
+.profilePicture {
+    max-height:150px;
+}
+
+.mainText {
+    font-size: 4rem;
+}
+
+.webButton button {
+    color:#7C3AED !important;
+    border-color:#7C3AED !important;
+}
